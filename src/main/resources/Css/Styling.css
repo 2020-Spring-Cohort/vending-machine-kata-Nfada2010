@@ -1,74 +1,71 @@
-
-
-.div1{
-background-color: #C5D1EB;
-font-family: fantasy;
-font-size: 27px;
+.div1 {
+	background-color: #C5D1EB;
+	font-family: fantasy;
+	font-size: 27px;
 }
 
-.div2{
-background-color: #92AFD7;
+.div2 {
+	background-color: #92AFD7;
 }
 
-.div3{
-    background-color: #92AFD7;
+.div3 {
+	background-color: #92AFD7;
 }
 
-.div4{
-background-color: #5A7684;
+.div4 {
+	background-color: #5A7684;
 }
 
 
-.money_button{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#3B5249;
-	border-radius:28px;	
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
-    user-select: none;
-    box-shadow: 3px 3px 10px #413f3f;
+.money_button {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #3B5249;
+	border-radius: 28px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 17px;
+	padding: 16px 31px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #2f6627;
+	user-select: none;
+	box-shadow: 3px 3px 10px #413f3f;
 }
 
 .money_button:hover {
-	background-color:rgb(86, 122, 109);
+	background-color: rgb(86, 122, 109);
 }
 
 .money_button:active {
-	position:relative;
-	top:1px;
+	position: relative;
+	top: 1px;
 }
 
-.drink_button{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:#3e4c81;
-	border-radius:28px;	
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
-    user-select: none;
-    box-shadow: 3px 3px 10px #413f3f;
+.drink_button {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: #3e4c81;
+	border-radius: 28px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 17px;
+	padding: 16px 31px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #2f6627;
+	user-select: none;
+	box-shadow: 3px 3px 10px #413f3f;
 }
 
 .drink_button:hover {
-	background-color:#495ba7;
+	background-color: #495ba7;
 }
 
 .drink_button:active {
-	position:relative;
-	top:1px;
+	position: relative;
+	top: 1px;
 }
 
-.machine{
-    height: auto;
-    width: auto;
+.machine {
+	height: auto;
+	width: auto;
 }
-
