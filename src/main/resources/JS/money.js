@@ -20,7 +20,13 @@ moneyAnchor.classList.add("selected_money")
 div1.appendChild(moneyAnchor)
 moneyAnchor.appendChild(selectedMoney)
 
-selectedMoney.innerHTML = "SELECTED MONEY"
+selectedMoney.innerHTML = `<div class="money_anchor">
+<div class="money_due"> Money due -$3.50-</div>
+<div class="paid">Paid -$5.00-</div>
+<div class="change_container">Change container -DUE--$1.50-</div>
+<div class="credit_card_button">CreditCardButton -CHARGE IT-</div>
+
+</div>`
     
 }
 

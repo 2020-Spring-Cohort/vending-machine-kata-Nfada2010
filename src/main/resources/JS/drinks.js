@@ -1,4 +1,3 @@
-
 const hotCoffeeButton = document.querySelector(".hot_coffee_button")
 const coldBrewButton = document.querySelector(".cold_brew_button")
 const frappuccinoButton = document.querySelector(".frappuccino_button")
@@ -7,19 +6,24 @@ const greenTeaButton = document.querySelector(".green_tea_button")
 
 
 const order = () => {
-if(div4.firstChild){
-    div4.innerHTML = ""
-}
+    if (div4.firstChild) {
+        div4.innerHTML = ""
+    }
 
-const orderedDrinks = document.createElement("div")
-const orderAnchor = document.createElement("div")
-orderAnchor.classList.add("order_anchor")
-orderAnchor.classList.add("ordered_drinks")
-div4.appendChild(orderAnchor)
-orderAnchor.appendChild(orderedDrinks)
+    const orderedDrinks = document.createElement("div")
+    const orderAnchor = document.createElement("div")
+    orderAnchor.classList.add("order_anchor")
+    orderAnchor.classList.add("ordered_drinks")
+    div4.appendChild(orderAnchor)
+    orderAnchor.appendChild(orderedDrinks)
 
-orderedDrinks.innerHTML = "Ordered drinks"
-    
+    orderedDrinks.innerHTML = `Ordered drinks
+     <div class="order_anchor">
+    <div class="ordered_drinks"></div>
+    <div class="order_total_drinks"></div>
+    <div class="order_total_money"></div>
+    <div class="order_complete_transaction"></div>`
+
 }
 
 hotCoffeeButton.addEventListener("click", order)
